@@ -57,7 +57,7 @@
     <Compile Include="S-SingleResponsability\After\Services\EmailSender.cs" />
     <Compile Include="S-SingleResponsability\After\Services\InvoiceService.cs" />
     <Compile Include="S-SingleResponsability\After\Services\OrderService.cs" />
-    <Compile Include="S-SingleResponsability\After\UoW\UnitOfWork .cs" />
+    <Compile Include="S-SingleResponsability\After\UoW\UnitOfWork.cs" />
     <Compile Include="S-SingleResponsability\Before\MessyServiceOrder.cs" />
   </ItemGroup>
   <ItemGroup>

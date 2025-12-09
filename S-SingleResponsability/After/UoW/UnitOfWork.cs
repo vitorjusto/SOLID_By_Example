@@ -15,10 +15,9 @@ namespace SOLID_By_Example.S_SingleResponsability.After.UoW
         public SqlConnection Connection { get; }
         public SqlTransaction Transaction { get; }
 
-
         public void Commit() => Transaction.Commit();
-
         public void Rollback() => Transaction.Rollback();
+
         public void Dispose()
         {
             Transaction.Dispose();

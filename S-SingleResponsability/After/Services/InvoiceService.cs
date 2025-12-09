@@ -15,9 +15,7 @@ namespace SOLID_By_Example.S_SingleResponsability.After.Services
 
                 var invoicePath = Path.Combine("Invoices", $"InvoicePath_{order.IdOrder}.txt");
 
-                File.WriteAllText(invoicePath,
-                        $"Invoice - Order {order.IdOrder}\nCustomer: {order.Customer}\nTotal: {order.Total}");
-
+                File.WriteAllText(invoicePath, $"Invoice - Order {order.IdOrder}\nCustomer: {order.Customer}\nTotal: {order.Total}");
             }
             catch (Exception ex)
             {

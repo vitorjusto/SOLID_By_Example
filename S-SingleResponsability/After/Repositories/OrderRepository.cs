@@ -12,9 +12,7 @@ namespace SOLID_By_Example.S_SingleResponsability.After.Repositories
         private readonly UnitOfWork _uow;
 
         public OrderRepository(UnitOfWork uow)
-        {
-            _uow = uow;
-        }
+            => _uow = uow;
 
         public void Save(Order order)
         {

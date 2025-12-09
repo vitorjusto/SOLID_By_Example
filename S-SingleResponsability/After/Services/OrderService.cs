@@ -40,9 +40,9 @@ namespace SOLID_By_Example.S_SingleResponsability.After.Services
                 _invoiceService.GenerateInvoice(order);
                 _logger.Log("Invoice successfully issued.");
 
-                _emailSender.Send("customer@exemple.com",
-                                  $"Order confirmation {order.IdOrder}",
-                                  $"Your order has been processed. Total {order.Total}");
+                _emailSender.Send(customer: "customer@exemple.com",
+                                  subject: $"Order confirmation {order.IdOrder}",
+                                  body: $"Your order has been processed. Total {order.Total}");
 
                 _logger.Log("Email sent successfully.");
 
