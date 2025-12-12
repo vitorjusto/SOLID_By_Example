@@ -1,11 +1,11 @@
 ﻿# S-SingleResponsability
 A class should have one, only one, reason to change.
 ------ 
-##📘 What is SRP?
+## 📘 What is SRP?
 
 The Single Responsibility Principle states that:
 
-| A class, module, or function should have only one reason to change, meaning it should have one clear responsibility.
+    A class, module, or function should have only one reason to change, meaning it should have one clear responsibility.
 
 This helps keep your code:
 
@@ -19,7 +19,7 @@ This helps keep your code:
 
 - More modular
 
-##❌ Before (Violation of SRP)
+## ❌ Before (Violation of SRP)
 
 In the Antes/ folder, you will find a class that:
 
@@ -36,7 +36,7 @@ In the Antes/ folder, you will find a class that:
 All in a single file.
 This makes the code tightly coupled and hard to extend.
 
-##🔍 How to Identify SRP Violations
+## 🔍 How to Identify SRP Violations
 
 A class might violate SRP when it:
 
@@ -52,7 +52,7 @@ A class might violate SRP when it:
 
 If a class has multiple reasons to change, SRP is being violated.
 
-##📌 Why SRP Matters
+## 📌 Why SRP Matters
 
 ✔ Reduces bugs
 ✔ Improves readability
@@ -61,7 +61,7 @@ If a class has multiple reasons to change, SRP is being violated.
 ✔ Makes the system more flexible to future changes
 ✔ Reduces coupling
 
-##📚 Related Principles
+## 📚 Related Principles
 
 - OCP — Changes become safer when responsibilities are isolated
 
